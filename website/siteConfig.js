@@ -24,7 +24,7 @@ const siteConfig = {
   title: 'Project Drishti', // Title for your website.
   tagline: 'A image processing library',
   url: 'https://http://radiilab.github.io', // Your website URL
-  baseUrl: '/Project-Drishti', // Base URL for your project */
+  baseUrl: '/Project-Drishti/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
