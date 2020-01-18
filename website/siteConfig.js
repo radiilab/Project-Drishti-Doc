@@ -21,16 +21,16 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Project Drishti', // Title for your website.
+  title: 'Project-Drishti-Doc', // Title for your website.
   tagline: 'A image processing library',
-  url: 'https://http://radiilab.github.io', // Your website URL
-  baseUrl: '/Project-Drishti/', // Base URL for your project */
+  url: 'https://github.com/radiilab/Project-Drishti-Doc', // Your website URL
+  baseUrl: '/PProject-Drishti-Doc/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'Project-Drishti',
+  projectName: 'Project-Drishti-Doc',
   organizationName: 'radiilab',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
