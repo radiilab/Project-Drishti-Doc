@@ -31,7 +31,7 @@ class HomeSplash extends React.Component {
 
     const Logo = props => (
       <div className="projectLogo">
-        <img src={props.img_src} alt="Project Logo" />
+        <img src={props.img_src} alt="Project Drishti Logo" />
       </div>
     );
 
@@ -64,7 +64,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
+            <Button href="https://firebasestorage.googleapis.com/v0/b/radii-productweb.appspot.com/o/drishti%2FDrishti_Lab-01.149.23-Linux.tar.gz?alt=media&token=a7cdeb05-505a-4930-afe9-16b6659719a7">Try It Out</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
@@ -97,7 +97,10 @@ class Index extends React.Component {
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
         <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <MarkdownBlock>The Radii Image Library (RIL) is a C++ library that
+           abstracts image representations from algorithms and 
+           allows writing code that can work on a variety of images with performance 
+           similar to hand-writing for a specific image type.</MarkdownBlock>
       </div>
     );
 
@@ -149,16 +152,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            title: 'Minimal Back Dependecies',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            content: 'Small Memory Footprint in applications',
           },
           {
-            content: 'The content of my second feature',
+            title: 'Simplicity and Reproducability',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            content: 'RIL is easy to interface with other librarues',
           },
         ]}
       </Block>
@@ -172,7 +175,7 @@ class Index extends React.Component {
       const showcase = siteConfig.users
         .filter(user => user.pinned)
         .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>
+          <a href={user.infoLink} key={user.infoLink}>feature
             <img src={user.image} alt={user.caption} title={user.caption} />
           </a>
         ));
