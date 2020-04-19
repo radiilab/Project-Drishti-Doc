@@ -38,19 +38,19 @@ class Footer extends React.Component {
           <div>
             <h5>Docs</h5>
             <a href={this.docUrl('doc1.html', this.props.language)}>
-              Getting Started (or other categories)
+              Factories Reference
             </a>
             <a href={this.docUrl('doc2.html', this.props.language)}>
-              Guides (or other categories)
+              Operators Ref 
             </a>
-            <a href={this.docUrl('doc3.html', this.props.language)}>
-              API Reference (or other categories)
+            <a href={this.docUrl('doc4.html', this.props.language)}>
+              Quick Start
             </a>
           </div>
           <div>
             <h5>Community</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
-              User Showcase
+            <a href={this.pageUrl('index.html', this.props.language)}>
+              Project Showcase
             </a>
             <a
               href="https://stackoverflow.com/questions/tagged/"
@@ -58,9 +58,9 @@ class Footer extends React.Component {
               rel="noreferrer noopener">
               Stack Overflow
             </a>
-            <a href="https://discordapp.com/">Project Chat</a>
+            <a href="https://join.slack.com/t/radiilab/shared_invite/zt-5l6ebtud-OVSCgtd_STb4rcCFhO3mIw">Project Chat</a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/LabRadii"
               target="_blank"
               rel="noreferrer noopener">
               Twitter
@@ -69,7 +69,7 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             <a href={`${this.props.config.baseUrl}blog`}>Blog</a>
-            <a href="https://github.com/">GitHub</a>
+            <a href="https://github.com/radiilab">Radii-Lab</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -108,12 +108,12 @@ class Footer extends React.Component {
         </section>
 
         <a
-          href="https://opensource.facebook.com/"
+          href="https://products.radii.in/drishtiLib.html"
           target="_blank"
           rel="noreferrer noopener"
           className="fbOpenSource">
           <img
-            src={`${this.props.config.baseUrl}img/oss_logo.png`}
+            src={`${this.props.config.baseUrl}img/undraw_book_reading.svg`}
             alt="Facebook Open Source"
             width="170"
             height="45"

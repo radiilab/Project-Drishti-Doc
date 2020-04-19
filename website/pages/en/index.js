@@ -65,8 +65,8 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="https://firebasestorage.googleapis.com/v0/b/radii-productweb.appspot.com/o/drishti%2FDrishti_Lab-01.149.23-Linux.tar.gz?alt=media&token=a7cdeb05-505a-4930-afe9-16b6659719a7">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('doc1.html')}>Quick Start Guide</Button>
+            <Button href={docUrl('doc2.html')}>Know More</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -109,12 +109,12 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              'To make way for  **Open Research**, we at [**Radii School of Thoughts**](https://edu.radii.in) have collaborative sessions and ' +
+              '[**internships**](https://edu.radii.in/CommingSoon.html) which helps us with maintaining RIL free for scientific research. ' +
+              'Any alterations to the library must forgo Product Licensing.',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Using Radii Imaging Library (RIL) Commercially',
           },
         ]}
       </Block>
@@ -125,8 +125,9 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              'Vision has an important sensory part of '+
+              'decision making and businesses do need to be alert. ',
+            image: `${baseUrl}img/undraw_surveillance.svg`,
             imageAlign: 'right',
             title: 'Description',
           },
@@ -139,10 +140,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              'With RIL abstrations, **image-frame processing** is fairly intuitive and easy.',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'RIL makes it Easy!',
           },
         ]}
       </Block>
@@ -158,7 +159,7 @@ class Index extends React.Component {
             content: 'Small Memory Footprint in applications',
           },
           {
-            title: 'Simplicity and Reproducability',
+            title: 'Simple and Reproducible',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
             content: 'RIL is easy to interface with other librarues',
@@ -175,8 +176,8 @@ class Index extends React.Component {
       const showcase = siteConfig.users
         .filter(user => user.pinned)
         .map(user => (
-          <a href={user.infoLink} key={user.infoLink}>feature
-            <img src={user.image} alt={user.caption} title={user.caption} />
+          <a href={user.infoLink} key={user.infoLink}>
+            <img src={baseUrl+user.image} alt={user.caption} title={user.caption} />
           </a>
         ));
 

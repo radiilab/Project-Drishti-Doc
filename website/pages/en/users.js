@@ -21,7 +21,7 @@ class Users extends React.Component {
     const editUrl = `${siteConfig.repoUrl}/edit/master/website/siteConfig.js`;
     const showcase = siteConfig.users.map(user => (
       <a href={user.infoLink} key={user.infoLink}>
-        <img src={user.image} alt={user.caption} title={user.caption} />
+        <img src={siteConfig.baseUrl+user.image} alt={user.caption} title={user.caption} />
       </a>
     ));
 
@@ -31,7 +31,7 @@ class Users extends React.Component {
           <div className="showcaseSection">
             <div className="prose">
               <h1>Who is Using This?</h1>
-              <p>This project is used by many folks</p>
+              <p>This project is used by Radii Internally for Vision Comptations</p>
             </div>
             <div className="logos">{showcase}</div>
             <p>Are you using this project?</p>

@@ -11,11 +11,11 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'Radii Deep Learn',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: '/img/undraw_open_source.svg',
-    infoLink: 'https://www.facebook.com',
+    image: '/img/userPeer.png',
+    infoLink: 'https://products.radii.in/deepLearn.html',
     pinned: true,
   },
 ];
@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
+    {doc: 'doc4', label: 'Tutorial'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
   ],
@@ -94,17 +94,17 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+   docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+   enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+  repoUrl: 'https://github.com/radiilab/project-Drishti',
 };
 
 module.exports = siteConfig;

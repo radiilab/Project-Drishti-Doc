@@ -27,11 +27,11 @@ function Help(props) {
       title: 'Browse Docs',
     },
     {
-      content: 'Ask questions about the documentation and project',
+      content: 'Ask questions about the documentation and project [on our open slack channel here.](https://join.slack.com/t/radiilab/shared_invite/zt-5l6ebtud-OVSCgtd_STb4rcCFhO3mIw)',
       title: 'Join the community',
     },
     {
-      content: "Find out what's new with this project",
+      content: "Find out what's new with this project [on our Youtube channel.](https://www.youtube.com/channel/UC0s0Vj17c05gPdSk_c406mg)",
       title: 'Stay up to date',
     },
   ];
@@ -41,9 +41,9 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h2>Need help with Image Processing?</h2>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>Look for the <a href='https://www.youtube.com/playlist?list=PLd3hlSJsX_ImKP68wfKZJVIPTd8Ie5u-9'>UCF CRCV course</a> to find some insights.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

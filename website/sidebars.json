@@ -1,10 +1,10 @@
 {
   "docs": {
-    "Docusaurus": ["doc1"],
-    "First Category": ["doc2"],
-    "Second Category": ["doc3"]
+    "Factories": ["doc1"],
+    "Opeations": ["doc2"],
+    "Memory Guards": ["doc3"]
   },
-  "docs-other": {
-    "First Category": ["doc4", "doc5"]
+  "Tutorial": {
+    "Create Transforms": ["doc4", "doc5"]
   }
 }
