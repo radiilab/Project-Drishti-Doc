@@ -1,6 +1,16 @@
 # Project-Drishti
+
 The documentation for successfully using the image manipulation library by radii labs
+for the RIL imaging System
 
-#to upload the changes to the site 
+## To Contribute to the changes to the site
 
-GIT_USER= <<AloyASen>> CURRENT_BRANCH=master yarn run publish-gh-pages
+    ## In case of bug reports
+
+    Please follow a proforma of the following
+    https://github.com/radiilab/Project-Drishti-Doc/blob/master/.github/ISSUE_TEMPLATE/bug_report.md
+
+    ## In case of feature requests
+
+    Please follow a proforma of the following
+    https://github.com/radiilab/Project-Drishti-Doc/blob/master/.github/ISSUE_TEMPLATE/bug_report.md
